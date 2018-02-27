@@ -12,6 +12,7 @@ pipeline {
           echo 'hello from node'
         }
         
+        bat 'dir'
       }
     }
   }
