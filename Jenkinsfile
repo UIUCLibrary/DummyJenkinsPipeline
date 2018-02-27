@@ -10,9 +10,9 @@ pipeline {
       steps {
         node(label: 'Windows') {
           echo 'hello from node'
+          bat 'dir'
         }
         
-        bat 'dir'
       }
     }
   }
