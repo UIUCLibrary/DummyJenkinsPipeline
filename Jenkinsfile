@@ -6,5 +6,13 @@ pipeline {
         echo 'Hello World'
       }
     }
+    stage('Create a Node') {
+      steps {
+        node(label: 'Windows') {
+          echo 'hello from node'
+        }
+        
+      }
+    }
   }
 }
