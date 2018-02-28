@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'Windows'
-    }
-    
-  }
+  agent any
   stages {
     stage('Say Hi') {
       steps {
