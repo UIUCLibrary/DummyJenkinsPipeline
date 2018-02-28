@@ -7,6 +7,7 @@ pipeline {
         node("Windows") {
           echo "inside a node"
           bat "dir"
+          checkout scm
         }
       }
     }
