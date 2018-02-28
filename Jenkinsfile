@@ -6,6 +6,7 @@ pipeline {
         echo 'Hello World'
         node("Windows") {
           echo "inside a node"
+          bat "dir"
         }
       }
     }
