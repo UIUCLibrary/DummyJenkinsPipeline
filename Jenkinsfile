@@ -3,12 +3,12 @@ pipeline {
     node {
       label 'Windows'
     }
-    
-  }
-  stages {
     tools {
       git 'Default'
     }
+  }
+  stages {
+    
     stage('Say Hi') {
       steps {
         echo 'Hello World'
