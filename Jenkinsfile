@@ -6,6 +6,9 @@ pipeline {
     
   }
   stages {
+    tools {
+      git 'Default'
+    }
     stage('Say Hi') {
       steps {
         echo 'Hello World'
