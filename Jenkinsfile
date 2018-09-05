@@ -6,6 +6,7 @@ pipeline {
   }
   tools {
       git 'Default'
+      cmake 'cmake3.12'
   }
   stages {
     
