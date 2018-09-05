@@ -2,10 +2,10 @@ pipeline {
   agent {
     node {
       label 'Windows'
-    }
-    tools {
+    } 
+  }
+  tools {
       git 'Default'
-    }
   }
   stages {
     
