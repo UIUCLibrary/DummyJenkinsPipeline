@@ -12,6 +12,7 @@ pipeline {
     stage('Say Hi') {
       steps {
         echo 'Hello World'
+        bat "where cmake"
       }
     }
   }
